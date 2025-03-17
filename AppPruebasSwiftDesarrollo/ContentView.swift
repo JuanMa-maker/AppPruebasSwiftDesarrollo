@@ -4,7 +4,7 @@
 //
 //  Created by Juan Manuel Sánchez Velázquez on 16/03/25.
 //
-
+//Cambios para verificar la conexión GitHub
 import SwiftUI
 
 struct ContentView: View {
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hola, mundo!")
         }
         .padding()
     }
