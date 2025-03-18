@@ -30,6 +30,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		CDD840282D8901CC00C4F212 /* Playgrounds */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
 		CDEDF53C2D87AC6700BC7233 /* AppPruebasSwiftDesarrollo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AppPruebasSwiftDesarrollo;
@@ -79,6 +84,7 @@
 				CDEDF54D2D87AC6900BC7233 /* AppPruebasSwiftDesarrolloTests */,
 				CDEDF5572D87AC6900BC7233 /* AppPruebasSwiftDesarrolloUITests */,
 				CDEDF53B2D87AC6700BC7233 /* Products */,
+				CDD840282D8901CC00C4F212 /* Playgrounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +114,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				CDD840282D8901CC00C4F212 /* Playgrounds */,
 				CDEDF53C2D87AC6700BC7233 /* AppPruebasSwiftDesarrollo */,
 			);
 			name = AppPruebasSwiftDesarrollo;
