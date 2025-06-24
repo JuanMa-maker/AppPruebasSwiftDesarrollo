@@ -25,3 +25,29 @@ let numeroIntToDouble: Double = 10 //se le puede asignar un tipo de dato a otro 
 //Para sumar un dos tipos de datos, hay una funcion para cambiar de tipo de dato a una variable
 //Puedes hacer un ciclo switch: switch VARIBABLEACOMPARAR {case 0:/BLOQUE INSTRUCCIONES/ case 1: ... default: /BLOQUE FINAL/}
 //Tambien es valido : "case "a", "b", "c"" o rangos "como case 0...9: case 10...30"
+let nombre = "Juan"
+print ("Hola, mi nombre es \(nombre)") // junta strinngs
+print (nombre.count)// contar longitud de un string
+let nombre2 : String?// variable opcional, no salta un error si no hay un nombre (NULL = nil)
+//para imprimir la varible entonces...
+func imprimirEdad(edad : Int?){
+    guard let age = edad else{
+        print("Escribe la edad")
+        return
+    }
+    print("Mi edad es: ",age)
+}
+imprimirEdad(edad: 25)
+
+let num1 = "10"
+let num2 = 20
+let suma = Int(num1)! + num2 // necesita de unwraping "!" debido a que al hacer la conversión no es seguro que haya un dato en num1
+// y el signo de exclamacion al generar una variable opcional entra al valor asegurando que existe un valor valido ahi, tabien se puede usar condicional..
+
+if let val1 = Int(num1) {
+    print(val1 + num2)
+}else {
+    print("Ingresa un numero")
+}
+
+

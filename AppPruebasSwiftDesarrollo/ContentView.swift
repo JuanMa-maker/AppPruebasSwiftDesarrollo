@@ -21,4 +21,10 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+    Button("pene") {
+        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/}
+    
+    
+    
+
 }
